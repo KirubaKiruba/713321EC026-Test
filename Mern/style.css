@@ -1,0 +1,40 @@
+/* Customize styles here */
+body {
+    padding-top: 3rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.jumbotron {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        position: static;
+    }
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(11, 243, 61);
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    background-color: #d61f1f;
+    margin: 100px;
+    padding: 200px;
+    font-size: 300px;
+  }
